@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoSpatialLayerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.spatiallayer.ExpoSpatialLayerModule"]
+  }
+}

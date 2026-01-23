@@ -1,0 +1,40 @@
+{
+    "name": "expo-spatial-layer",
+    "version": "1.0.0",
+    "description": "High-performance native spatial layer for Expo and React Native using C++ JSI and QuadTree.",
+    "main": "index.tsx",
+    "types": "src/ExpoSpatialLayer.types.ts",
+    "files": [
+        "android",
+        "ios",
+        "cpp",
+        "src",
+        "index.tsx",
+        "expo-module.config.json",
+        "README.md",
+        "ARCHITECTURE.md"
+    ],
+    "keywords": [
+        "react-native",
+        "expo",
+        "maps",
+        "geospatial",
+        "gis",
+        "jsi",
+        "cpp",
+        "quadtree",
+        "performance"
+    ],
+    "repository": "https://github.com/emersonvieira/expo-spatial-layer-app",
+    "author": "Emerson Vieira",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/emersonvieira/expo-spatial-layer-app/issues"
+    },
+    "homepage": "https://github.com/emersonvieira/expo-spatial-layer-app#readme",
+    "peerDependencies": {
+        "expo": "*",
+        "react": "*",
+        "react-native": "*"
+    }
+}

@@ -41,3 +41,14 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Large Datasets (Downloaded by convert_csv.py)
+*.parquet
+*.csv
+
+# Module generated artifacts
+modules/*/android/build/
+modules/*/android/.cxx/
+modules/*/android/.gradle/
+modules/*/ios/build/
+modules/*/ios/Pods/

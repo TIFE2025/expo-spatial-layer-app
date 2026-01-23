@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "expo-spatial-layer-app",
+    "name": "Spatial Layer Showcase",
     "slug": "expo-spatial-layer-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expospatiallayerapp",
+    "scheme": "spatiallayershowcase",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spatiallayershowcase"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +20,13 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.spatiallayershowcase",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAJOAoyYKzQfOOIhiNBTLonoF1DO1R4Iqg"
+        }
+      }
     },
     "web": {
       "output": "static",

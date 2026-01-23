@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# Expo Spatial Layer Showcase 🌍⚡
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A professional-grade demonstration of the **Expo Spatial Layer Engine**, a high-performance native library for rendering and interacting with massive geospatial datasets in React Native.
 
-## Get started
+[![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 
-1. Install dependencies
+## 🚀 The Mission
 
-   ```bash
-   npm install
-   ```
+Visualizing millions of points on a mobile map without lag or synchronization issues is a major challenge. This project showcases a solution that combines a **C++ QuadTree Engine** with **Google Maps Native Tiles** to achieve desktop-class performance on mobile devices.
 
-2. Start the app
+## ✨ Key Features
 
-   ```bash
-   npx expo start
-   ```
+- **1,000,000+ Points**: Smoothly handle massive datasets with sub-millisecond query times.
+- **QuadTree Spatial Indexing**: $O(\log n)$ performance for rendering and picking.
+- **Zero-Latency Interaction**: Instant point selection through JSI-bridged C++ logic.
+- **Agnostic Styling**: Configure point colors and categories dynamically from JavaScript.
+- **Binary Zero-Copy**: Direct `Float32Array` transfer to native memory for instant loading.
 
-In the output, you'll find options to open the app in a
+![Showcase: 200,000 Points with Perfect Sync](./assets/images/200points.jpeg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🏗️ Repository Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [**`modules/expo-spatial-layer/`**](./modules/expo-spatial-layer/): The core high-performance engine.
+- [**`app/spatial-test.tsx`**](./app/spatial-test.tsx): Industrial-grade demo showing picking, memory monitoring, and dynamic styles.
+- **`convert_csv.py`**: Utility to transform raw CSV/Parquet data into efficient binary format.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📦 Getting Started
 
+### 1. Prerequisites
+- Node.js & npm/yarn
+- Android Studio/SDK (for Android builds)
+- Python 3 (for data conversion)
+
+### 2. Prepare Data
+The app uses a binary format for extreme speed. Convert the sample taxi data:
 ```bash
-npm run reset-project
+python3 convert_csv.py
+```
+*This generates `taxi-data.bin` in the `assets/` folder.*
+
+### 3. Run the Showcase (coming soon to NPM)
+```bash
+npm install
+npx expo run:android
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📖 In-Depth Documentation
 
-To learn more about developing your project with Expo, look at the following resources:
+For advanced technical details, check the internal module docs:
+- [**Technical Architecture**](./modules/expo-spatial-layer/ARCHITECTURE.md) - How JSI and QuadTree work.
+- [**API Reference**](./modules/expo-spatial-layer/README.md) - Props and methods for the engine.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🗺️ Roadmap
+Check our [**ROADMAP.md**](./ROADMAP.md) for future plans including iOS support, clustering, and heatmaps.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Built with ❤️ by the Geospatial Community.

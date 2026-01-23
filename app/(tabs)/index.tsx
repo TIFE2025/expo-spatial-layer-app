@@ -65,7 +65,14 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Step 3: Test Spatial Layer</ThemedText>
+        <Link href="/spatial-test" style={{ padding: 10, backgroundColor: 'blue', borderRadius: 5 }}>
+          <ThemedText style={{ color: 'white' }}>Open Spatial Layer Demo (Fast)</ThemedText>
+        </Link>
+      </ThemedView>
+
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 4: Get a fresh start</ThemedText>
         <ThemedText>
           {`When you're ready, run `}
           <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
